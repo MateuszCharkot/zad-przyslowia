@@ -21,7 +21,13 @@ class SecondController extends Controller
 
     /*
      * B
+     */  /**
+     * @Route("/lato-zima.html", name="lato-zima")
      */
+     public function latozimaAction()
+     {
+        return $this->render('default/lato-zima.html.twig');
+     }
 
     /*
      * C
