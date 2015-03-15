@@ -163,6 +163,13 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * K
      */
+      /**
+     * @Route("/uciekal.html", name="uciekal")
+     */
+     public function uciekalAction()
+     {
+        return $this->render('default/uciekal.html.twig');
+     }
 
     /*
      * L
